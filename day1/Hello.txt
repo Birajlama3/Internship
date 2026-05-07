@@ -1,0 +1,1 @@
+ After overwriting, This is new text.
