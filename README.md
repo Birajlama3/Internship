@@ -1,1 +1,1 @@
-# Internship
+# Simple Django based project involving CRUD operation of members in a tennis club.
