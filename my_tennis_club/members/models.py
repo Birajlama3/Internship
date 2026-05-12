@@ -5,6 +5,6 @@ class Member(models.Model):
     lastname = models.CharField(max_length=255)
     phone = models.IntegerField(null=True)
     joined_date = models.DateField(null=True)
-
-    def __str__(self):
+    slug = models.SlugField(default="", null=False, unique=True, blank=True)
+def __str__(self):
         return f"{self.firstname} {self.lastname}"
